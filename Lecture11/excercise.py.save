@@ -1,0 +1,9 @@
+#!usr/bin/python
+
+#split the sequence
+sequence = open("AJ223353.fasta")
+sequence = sequence.read()
+coding = sequence[28:408] 
+nocoding = sequence[0:27]+sequence[409:] 
+sequence_local = open("plain_genomic_seq.txt").read()
+sequence_local.replace("A","")

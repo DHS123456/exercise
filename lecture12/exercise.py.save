@@ -1,0 +1,6 @@
+#!usr/bin/python
+#1 remove the adapter
+import os,subprocess
+myfile = list(open('input.txt'))
+
+
